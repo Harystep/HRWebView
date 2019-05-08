@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		70E8DDA42282CD61006A8A05 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E8DDA32282CD61006A8A05 /* AppDelegate.m */; };
-		70E8DDA72282CD61006A8A05 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E8DDA62282CD61006A8A05 /* ViewController.m */; };
+		70E8DDA72282CD61006A8A05 /* HRWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E8DDA62282CD61006A8A05 /* HRWebViewController.m */; };
 		70E8DDAA2282CD61006A8A05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70E8DDA82282CD61006A8A05 /* Main.storyboard */; };
 		70E8DDAC2282CD63006A8A05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70E8DDAB2282CD63006A8A05 /* Assets.xcassets */; };
 		70E8DDAF2282CD63006A8A05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70E8DDAD2282CD63006A8A05 /* LaunchScreen.storyboard */; };
 		70E8DDB22282CD63006A8A05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E8DDB12282CD63006A8A05 /* main.m */; };
 		70E8DDBC2282CD63006A8A05 /* HRWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E8DDBB2282CD63006A8A05 /* HRWebViewTests.m */; };
 		70E8DDC72282CD63006A8A05 /* HRWebViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E8DDC62282CD63006A8A05 /* HRWebViewUITests.m */; };
+		70E8DDD62282CF26006A8A05 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E8DDD52282CF26006A8A05 /* BaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +39,8 @@
 		70E8DD9F2282CD61006A8A05 /* HRWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HRWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70E8DDA22282CD61006A8A05 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		70E8DDA32282CD61006A8A05 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		70E8DDA52282CD61006A8A05 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		70E8DDA62282CD61006A8A05 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		70E8DDA52282CD61006A8A05 /* HRWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRWebViewController.h; sourceTree = "<group>"; };
+		70E8DDA62282CD61006A8A05 /* HRWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRWebViewController.m; sourceTree = "<group>"; };
 		70E8DDA92282CD61006A8A05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		70E8DDAB2282CD63006A8A05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70E8DDAE2282CD63006A8A05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +52,8 @@
 		70E8DDC22282CD63006A8A05 /* HRWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HRWebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70E8DDC62282CD63006A8A05 /* HRWebViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRWebViewUITests.m; sourceTree = "<group>"; };
 		70E8DDC82282CD63006A8A05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70E8DDD42282CF26006A8A05 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		70E8DDD52282CF26006A8A05 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +106,10 @@
 			children = (
 				70E8DDA22282CD61006A8A05 /* AppDelegate.h */,
 				70E8DDA32282CD61006A8A05 /* AppDelegate.m */,
-				70E8DDA52282CD61006A8A05 /* ViewController.h */,
-				70E8DDA62282CD61006A8A05 /* ViewController.m */,
+				70E8DDD42282CF26006A8A05 /* BaseViewController.h */,
+				70E8DDD52282CF26006A8A05 /* BaseViewController.m */,
+				70E8DDA52282CD61006A8A05 /* HRWebViewController.h */,
+				70E8DDA62282CD61006A8A05 /* HRWebViewController.m */,
 				70E8DDA82282CD61006A8A05 /* Main.storyboard */,
 				70E8DDAB2282CD63006A8A05 /* Assets.xcassets */,
 				70E8DDAD2282CD63006A8A05 /* LaunchScreen.storyboard */,
@@ -262,7 +267,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70E8DDA72282CD61006A8A05 /* ViewController.m in Sources */,
+				70E8DDA72282CD61006A8A05 /* HRWebViewController.m in Sources */,
+				70E8DDD62282CF26006A8A05 /* BaseViewController.m in Sources */,
 				70E8DDB22282CD63006A8A05 /* main.m in Sources */,
 				70E8DDA42282CD61006A8A05 /* AppDelegate.m in Sources */,
 			);
